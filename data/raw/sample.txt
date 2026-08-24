@@ -1,0 +1,10 @@
+Notes de reunion - ingestion de documents
+
+La recherche hybride combine un index vectoriel et un index lexical comme BM25 afin de retrouver aussi bien les similarites semantiques que les correspondances exactes de mots-cles.
+
+Points a trancher pour le prochain sprint :
+- taille des chunks (500 caracteres vs 800)
+- chevauchement entre chunks (50 caracteres actuellement)
+- frequence de reindexation (quotidienne ou a la demande)
+
+Rappel : le format TXT ne porte aucune structure, contrairement au Markdown ou au HTML. Le pipeline doit donc s'appuyer uniquement sur la ponctuation et les sauts de ligne pour segmenter le texte.
