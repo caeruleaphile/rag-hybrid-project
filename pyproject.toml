@@ -1,7 +1,7 @@
 [project]
 name = "rag-hybrid-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "here"
 readme = "README.md"
 authors = [
     { name = "caeruleaphile", email = "bannour.01imane@gmail.com" }
